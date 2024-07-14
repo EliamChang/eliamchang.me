@@ -1,0 +1,233 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li:first-child {
+    margin-right: auto; /* Push Eliam Chang to the right */
+    display: flex; /* Use flexbox to align items */
+    align-items: center; /* Center items vertically */
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 20px; /* Adjust padding for spacing */
+    display: inline-block; /* Allow padding to work correctly */
+}
+
+.navbar ul li a img {
+    display: block;
+    margin-right: 10px; /* Adjust spacing between icon and text */
+    width: 24px; /* Adjust size as needed */
+    height: 24px; /* Adjust size as needed */
+    filter: brightness(0) invert(1); /* Invert the color to make black icons white */
+}
+
+.navbar ul li a:hover {
+    background-color: #575757;
+}
+
+.name-link a {
+    display: flex;
+    align-items: center;
+    color: #fff; /* Adjust text color */
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 1em;
+}
+
+.container {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 94.5%; /* Adjust to 95% of the viewport width */
+    margin: 20px auto;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 5px 0;
+    font-size: 1.1em;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+
+}
+
+.job, .service, .project {
+    margin-bottom: 20px;
+}
+
+.job h3, .service h3, .project h3 {
+    margin: 0;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}   
+
+a {
+    color: #333;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.navbar ul li a img {
+    display: block;
+    margin: 0 auto 5px;
+    width: 24px; /* Adjust size as needed */
+    height: 24px; /* Adjust size as needed */
+    filter: brightness(0) invert(1); /* Invert the color to make black icons white */
+}
+
+/* Styling for the icon box */
+.icon-box {
+    display: flex;
+    align-items: center;
+    margin-left: 20 px;
+    margin-right: 0px; /* Space between the icon and the name */
+}
+
+/* Styling for the icon itself */
+.icon-box img {
+    width: 50px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
+    filter: brightness(0) invert(1); /* Make the balloon icon white */
+}
+
+/* Styling for the name box */
+.name-box {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-weight: normal;
+    font-size: 2.5em;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    margin-left: 0px;
+}
+
+.balloon-icon {
+    filter: brightness(0) invert(1); /* Make the balloon icon white */
+    margin-left: 15px;
+    margin-right: 0px; /* Adjust spacing between the icon and the name */
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* 1/3 and 2/3 column widths */
+    gap: 20px; /* Gap between columns */
+    max-width: 100%; /* Adjust to 95% of the viewport width */
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 0px;
+}
+
+section h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin: 10px;
+}
+
+#home {
+    margin-top: 20px;
+}
+
+.home-content {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.profile-photo {
+    max-width: 75%; /* Adjust to 75% of its container */
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.home-content h1 {
+    font-size: 3.5em; /* Increase font size */
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal; /* Remove bold style */
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    margin-top: 0; /* Remove top margin */
+}
+
+.socials img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin: -30px 15px 90px 15px;
+}
+
+.sidebar {
+    text-align: center;
+    margin-top: 0px;
+}
+
+.sidebar img {
+    width: 100%; /* Ensure the image fills the sidebar */
+    display: block; /* Ensure it fills the entire width */
+}
+
+.download {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
