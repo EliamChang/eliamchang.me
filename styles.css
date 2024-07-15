@@ -92,7 +92,6 @@ section h2 {
     font-weight: normal;
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.5em;
-
 }
 
 .job, .service, .project {
@@ -230,4 +229,141 @@ section h2 {
     width: 20px;
     height: 20px;
     margin-left: 10px;
+}
+
+/* Existing CSS styles */
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-content {
+    max-width: 94.5%; /* Adjust to 95% of the viewport width */
+    margin: 0 auto;
+}
+
+/* About Title Section */
+/* About Container */
+.about-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 94.5%; /* Adjust to 95% of the viewport width */
+    margin: 20px auto;
+}
+
+/* About Title Section */
+#about-title {
+    text-align: left;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+#about-title h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0px;
+    display: inline-block;
+}
+
+/* Paragraph Block */
+#about-paragraph {
+    margin: 0 30px 20px 30px;
+}
+
+#about-paragraph p {
+    text-align: left;
+    font-size: 1.25em;
+    line-height: 1.8;
+    margin: 0;
+}
+
+/* Three Sections Block */
+#about-three-sections {
+    display: flex;
+    justify-content: space-between;
+}
+
+#about-three-sections .section-left,
+#about-three-sections .section-right {
+    flex: 1.1;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#about-three-sections .section-center {
+    flex: 0.75;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.25em;
+    line-height: 2;
+    margin: 5px;
+}
+
+#about-three-sections img {
+    width: 100%;
+    height: auto;
+}
+
+/* Two Sections Block */
+#about-two-sections {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.25em;
+    line-height: 2;
+    font-family: 'Times New Roman', Times, serif;
+    z-index: 1;
+}
+
+#about-two-sections .section-left {
+    margin-left: 25%;
+    margin-right: 4%;
+    text-align: right;
+    font-weight: bold;
+}
+
+#about-two-sections .section-right {
+    flex: 2;
+    text-align: left;
+}
+
+#about-two-sections p {
+    font-size: 1.1em;
+    line-height: 1.8;
+}
+
+/* Full-width Photo Block */
+#about-full-width-photo {
+    text-align: center;
+}
+
+#about-full-width-photo img {
+    width: 97%;
+    height: auto;
+    margin-top: -249px
 }
